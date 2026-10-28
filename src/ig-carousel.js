@@ -1,7 +1,7 @@
 /* ==========================================================================
    IG Carousel for Squarespace 7.1 — v1.4.0
    Instagram-style post carousel built from native Squarespace content.
-   https://github.com/zsawtelle-lgtm/sqsp-social-highlight-scroll
+   https://github.com/swtldesignco/sqsp-social-highlight-scroll
 
    Three ways to feed it (mix freely on one page):
 

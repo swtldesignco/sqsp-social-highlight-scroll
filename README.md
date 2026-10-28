@@ -38,8 +38,8 @@ See the full guide: **[docs/INSTALL.md](docs/INSTALL.md)**.
 ## CDN
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/zsawtelle-lgtm/sqsp-social-highlight-scroll@1/src/ig-carousel.css">
-<script defer src="https://cdn.jsdelivr.net/gh/zsawtelle-lgtm/sqsp-social-highlight-scroll@1/src/ig-carousel.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/swtldesignco/sqsp-social-highlight-scroll@1/src/ig-carousel.css">
+<script defer src="https://cdn.jsdelivr.net/gh/swtldesignco/sqsp-social-highlight-scroll@1/src/ig-carousel.js"></script>
 ```
 
 `@1` follows the latest 1.x release (requires a `v1.x.x` tag on the repo). Never use `@latest`.

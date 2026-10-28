@@ -1,7 +1,7 @@
 # IG Carousel
 
 Instagram-style post carousels built from native Squarespace content.
-Repo: <https://github.com/zsawtelle-lgtm/sqsp-social-highlight-scroll> · Version **1.4.0** · Status: **beta: installed on swtldesignco.com staging**
+Repo: <https://github.com/swtldesignco/sqsp-social-highlight-scroll> · Version **1.4.0** · Status: **beta: installed on swtldesignco.com staging**
 
 ---
 
@@ -29,7 +29,7 @@ Requires the **Core plan or higher** and **Fluid Engine**.
 2. Paste [`snippets/code-injection-footer.html`](../snippets/code-injection-footer.html):
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/zsawtelle-lgtm/sqsp-social-highlight-scroll@1/src/ig-carousel.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/swtldesignco/sqsp-social-highlight-scroll@1/src/ig-carousel.css">
 <script>
   window.IGCarouselConfig = {
     account: 'your.account',
@@ -37,7 +37,7 @@ Requires the **Core plan or higher** and **Fluid Engine**.
     profile: 'https://www.instagram.com/your.account/'
   };
 </script>
-<script defer src="https://cdn.jsdelivr.net/gh/zsawtelle-lgtm/sqsp-social-highlight-scroll@1/src/ig-carousel.js"></script>
+<script defer src="https://cdn.jsdelivr.net/gh/swtldesignco/sqsp-social-highlight-scroll@1/src/ig-carousel.js"></script>
 ```
 
 3. Set `account`, `avatar` and `profile` (see [Profiles](#profiles-one-account-or-one-per-post)).
@@ -597,4 +597,4 @@ The plugin watches `body.class` for `sqs-edit-mode-active` and tears down or reb
 - Video block custom thumbnail is read from `.sqs-native-video[data-config-thumbnail]` →
   `assetUrl` + `mediaFocalPoint` (verified on staging).
 - **Release:** each version needs its `vX.Y.Z` release tag on `main` for `@1` to pick it up,
-  then purge `https://purge.jsdelivr.net/gh/zsawtelle-lgtm/sqsp-social-highlight-scroll@1/src/ig-carousel.js` (and `.css`).
+  then purge `https://purge.jsdelivr.net/gh/swtldesignco/sqsp-social-highlight-scroll@1/src/ig-carousel.js` (and `.css`).

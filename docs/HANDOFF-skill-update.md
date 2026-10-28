@@ -7,18 +7,18 @@ Paste this file into a Claude chat that can edit the **squarespace-components** 
 Add the IG Carousel component to the `squarespace-components` skill.
 
 1. **Create `references/ig-carousel.md`** with the full contents of the install doc:
-   - Raw file: https://raw.githubusercontent.com/zsawtelle-lgtm/sqsp-social-highlight-scroll/main/docs/INSTALL.md
+   - Raw file: https://raw.githubusercontent.com/swtldesignco/sqsp-social-highlight-scroll/main/docs/INSTALL.md
 
    Copy it as-is. It already follows `_TEMPLATE.md` (Basic install → Styling →
    For developers → Support). In the copy, change the relative links
    (`../snippets/…`, `../src/…`) to full GitHub URLs:
-   `https://github.com/zsawtelle-lgtm/sqsp-social-highlight-scroll/blob/main/…`
+   `https://github.com/swtldesignco/sqsp-social-highlight-scroll/blob/main/…`
 
 2. **Add this row to `references/INDEX.md`:**
 
    | Component | Repo | Doc | Status |
    |---|---|---|---|
-   | IG Carousel (Instagram-style post carousel) | `zsawtelle-lgtm/sqsp-social-highlight-scroll` | `references/ig-carousel.md` | v1.3.0 — installed on swtldesignco.com staging, not yet on a client site |
+   | IG Carousel (Instagram-style post carousel) | `swtldesignco/sqsp-social-highlight-scroll` | `references/ig-carousel.md` | v1.3.0 — installed on swtldesignco.com staging, not yet on a client site |
 
 3. **Add `ig-carousel` to the component list in the skill's `description`** so it triggers.
    Suggested wording, inserted with the other component names:
@@ -47,4 +47,4 @@ Add the IG Carousel component to the `squarespace-components` skill.
 - Settings cheat sheet (Custom CSS route + code block route) is in the install doc
   under "Settings cheat sheet".
 - Release cycle for updates: PR → merge to `main` → publish a `vX.Y.Z` release →
-  purge `https://purge.jsdelivr.net/gh/zsawtelle-lgtm/sqsp-social-highlight-scroll@1/src/ig-carousel.js` (and `.css`).
+  purge `https://purge.jsdelivr.net/gh/swtldesignco/sqsp-social-highlight-scroll@1/src/ig-carousel.js` (and `.css`).
